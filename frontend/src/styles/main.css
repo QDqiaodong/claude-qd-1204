@@ -1,0 +1,29 @@
+:root {
+  /* 金黄主色 —— 开锁配匙店 */
+  --primary: #FFC107;
+  --primary-deep: #CC9A06;
+  --primary-soft: #FFE083;
+  --primary-wash: #FFF9E6;
+  --ink: #2f3340;
+  --muted: #8a7a3a;
+  --line: #f0e6c8;
+  --bg: #fbf8f0;
+
+  --el-color-primary: #FFC107;
+  --el-color-primary-light-3: #FFD451;
+  --el-color-primary-light-5: #FFE083;
+  --el-color-primary-light-7: #FFECB5;
+  --el-color-primary-light-8: #FFF3CD;
+  --el-color-primary-light-9: #FFF9E6;
+  --el-color-primary-dark-2: #CC9A06;
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--ink);
+  font-family: "PingFang SC", "Microsoft YaHei", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-size: 14px;
+}
